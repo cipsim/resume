@@ -30,6 +30,10 @@
     background-color: #f4f8fd;
 }
 
+.bg-color-work-history {
+    background-color: #cce0f7;
+}
+
 /*--------------Heading-----------*/
 
 header {
@@ -140,7 +144,7 @@ h1,
 h2,
 h3,
 h4 {
-    margin: 0;
+    margin: 0px;
 }
 
 .uppercase {
@@ -163,10 +167,10 @@ h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0px 30px 30px;
     float: none;
 }
-
+.history-heading,
 .section-heading {
     font-family: "Exo" , sans-serif;
     font-weight: 300;
@@ -207,7 +211,7 @@ footer {
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px 0;
+    padding: 12px 0px;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
@@ -269,4 +273,73 @@ footer {
 .personal-info-item .value {
     width: 60%;
     position: relative;
+}
+
+/*--------------Skills-----------*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2)
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/*--------------Work History-----------*/
+
+.history-heading {
+    color: #69053f;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #69053f;
+    border-left: 1px solid;
+    }
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo" , sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 50%;
+    content: '';
+    background-color: #69053f;
+}
+
+.history-items {
+    margin-bottom: 45px;
 }
