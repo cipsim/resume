@@ -173,6 +173,7 @@ h4 {
     display: table-cell;
     padding: 0px 30px 30px;
     float: none;
+    min-height: 60vh;
 }
 
 .history-heading,
